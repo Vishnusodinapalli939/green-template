@@ -1,0 +1,331 @@
+.main {
+    background-color: aqua;
+  }
+  .mail {
+    margin: 10px;
+    display: flex;
+    gap: 10px;
+    position: relative;
+    top: 10px;
+  }
+  .icons {
+    display: flex;
+    gap: 10px;
+    justify-content: end;
+  }
+  .icons {
+    position: relative;
+    top: -20px;
+    left: -200px;
+  }
+  .collapse {
+    display: flex;
+    justify-content: end;
+    margin-right: 160px;
+  }
+  .para {
+    position: relative;
+    top: -300px;
+    z-index: 2;
+    color: white;
+    text-align: center;
+  }
+  .btn-success {
+    width: 8vw;
+    padding: 10px;
+    position: relative;
+    left: 700px;
+    top: -270px;
+  }
+  .border-success:hover{
+    background-color: green;
+    color:white;
+  }
+  .btn-success:hover{
+    background-color: white;
+    color:green;
+  }
+  .item1 {
+    position: relative;
+    top: -120px;
+    gap: 10px;
+  }
+  #lap {
+    color: green;
+  }
+  .flex1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: 10px;
+  }
+  .about1 {
+    margin: 60px;
+  }
+  .mg {
+    margin: 30px;
+  }
+  #ab {
+    width: 50vw;
+    position: relative;
+    left: 700px;
+    top: -500px;
+  }
+  .team {
+    position: relative;
+    top: -300px;
+    background-color: aqua;
+    height: 40rem;
+  }
+  #white1 {
+    border-radius: 400px;
+    position: relative;
+    left: 100px;
+    top: 20px;
+  }
+  #icons1 {
+    position: relative;
+    left: -10px;
+    top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .team1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    position: relative;
+    top: 10px;
+  }
+  .gallery {
+    position: relative;
+    top: 60px;
+    left: 200px;
+  }
+  table,
+  tr,
+  td {
+    padding: 10px;
+  }
+  .call {
+    height: 150px;
+    position: relative;
+    top: -190px;
+    padding: 30px;
+    color: white;
+  }
+  #call {
+    position: relative;
+    float: right;
+    left: -100px;
+    top: -70px;
+    color: white;
+  }
+  .portfolio {
+    position: relative;
+    top: -120px;
+  }
+  .nav5 {
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    position: relative;
+    top: 20px;
+  }
+  #ipusum {
+    position: relative;
+    left: 100px;
+  }
+  .grid3 {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 80px;
+    justify-content: center;
+    position: relative;
+    top: 20px;
+  }
+  .contact {
+    position: relative;
+    top: 50px;
+  }
+  .line {
+    background-color: green;
+    height: 3px;
+  }
+  .icon4 {
+    position: relative;
+    top: 30px;
+    left: 40px;
+    display: flex;
+  }
+  #loca {
+    position: relative;
+    top: -15px;
+    left: 30px;
+  }
+  #adam {
+    position: relative;
+    top: 7px;
+    left: -35px;
+  }
+  #adam1 {
+    position: relative;
+    top: 7px;
+    left: -20px;
+  }
+  #adam2 {
+    position: relative;
+    top: 7px;
+    left: -10px;
+  }
+  #icon3 {
+    position: relative;
+    top: 50px;
+  }
+  #icon4 {
+    position: relative;
+    top: 80px;
+  }
+  #map{
+    position:relative;
+    top:80px;
+    left:30px;
+  }
+  #contact{
+    position:relative;
+    left:500px;
+  }
+.form{
+position:relative;
+left:550px;
+top:-450px;
+}
+.name{
+padding:15px;
+width:350px;
+margin:10px;
+}
+.area{
+width:730px;
+height:130px;
+position:relative;
+left:10px;
+padding:10px;
+}
+.smn{
+padding:10px;
+border-radius: 40px;
+background-color: rgba(21, 226, 21, 0.741);
+color: white;
+position:relative;
+left:10px;
+}
+.line2{
+background-color: green;
+height: 3px;
+position:relative;
+top:-330px;
+}
+#ftext{
+position:relative;
+top:45px;
+}
+#ftext1{
+position:relative;
+top:40px;
+}
+.footer{
+background-color: black;
+height:230px;
+padding:30px;
+color:white;
+position:relative;
+top:-250px;
+}
+
+@media screen and (min-width:350px) and (max-width:760px) {
+    .icons{
+        position:relative;
+        top:-20px;
+        left:-200px;
+    }
+    .mail{
+        text-wrap: wrap;
+        height:50px;
+    }
+    .flex1{
+        display:flex;
+        flex-direction: column;
+        position:relative;
+        top:-150px;
+    }
+    .about{
+        position:relative;
+        top:-240px;
+    }
+    .team{
+        position:relative;
+        top:-200px;
+    }
+    .team1{
+        display:flex;
+        flex-direction: column;
+    }
+    .call{
+        position:relative;
+        top:650px;
+        height:240px;
+    }
+    .portfolio{
+        position:relative;
+        top:700px;
+    }
+    #call{
+        position:relative;
+        top:10px;
+    }
+    #services{
+        position:relative;
+        top:700px;
+    }
+    .gallery{
+        position:relative;
+        left:-60px;
+    }
+    .grid3{
+        display:flex;
+        flex-direction: column;
+    }
+    .contact{
+        position:relative;
+        top:750px;
+    }
+    #map{
+        width:300px;
+    }
+    .form{
+        position:relative;
+        top:150px;
+        left:5px;
+        
+    }
+    .line2{
+        position:relative;
+        top:160px;
+    }
+    .name{
+        padding:15px;
+        width:150px;
+        margin:10px;
+      }
+    .smn{
+        position:relative;
+        top:-30px;
+    }
+    .footer{
+        position:relative;
+        top:950px;
+        height:300px;
+    }
+}
