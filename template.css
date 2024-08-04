@@ -276,12 +276,12 @@ top:-250px;
     }
     .call{
         position:relative;
-        top:650px;
+        top:1000px;
         height:240px;
     }
     .portfolio{
         position:relative;
-        top:700px;
+        top:1050px;
     }
     #call{
         position:relative;
@@ -289,7 +289,7 @@ top:-250px;
     }
     #services{
         position:relative;
-        top:700px;
+        top:1100px;
     }
     .gallery{
         position:relative;
@@ -301,7 +301,7 @@ top:-250px;
     }
     .contact{
         position:relative;
-        top:750px;
+        top:1150px;
     }
     #map{
         width:300px;
@@ -328,7 +328,7 @@ top:-250px;
     }
     .footer{
         position:relative;
-        top:950px;
+        top:1250px;
         height:300px;
     }
 }
