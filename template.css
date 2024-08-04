@@ -317,11 +317,12 @@ top:-250px;
     .name{
         padding:15px;
         width:150px;
-        margin:10px;
+       margin:10px;
       }
     .smn{
         position:relative;
         top:-30px;
+        width:150px;
     }
     .footer{
         position:relative;
